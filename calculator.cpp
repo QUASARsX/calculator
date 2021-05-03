@@ -34,7 +34,7 @@ int main()
     }
     
     cout << ">> " << num1 << op << num2 << " = "; 
-    cout << setprecision(3) << fixed << sum << endl; //setting final result (sum) to 3 decimal precision point
+    cout << setprecision(2) << fixed << sum << endl; //setting final result (sum) to 3 decimal precision point
 
     return 0;
 }
